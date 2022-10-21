@@ -42,6 +42,24 @@
 (println "into: entrada: [6 7 8] [ 65 83 12 87 34 36] resultado: " (into [6 7 8] [ 65 83 12 87 34 36]))
 (println "into: entrada: [43 65] [ 65 83 12 87 34 36] resultado: " (into [43 65] [ 65 83 12 87 34 36]))
 
+;; o que é inc
+;; inc incrementa um número.
+;; 2 exemplo diferente:
+(println "inc: entrada: 3 1 resultado: " (inc 3 1))
+(println "inc: entrada: 7 1 resultado: " (inc 7 1))
+
+;; o que é nth
+;; nth retorna o elemento de uma coleção na posição especificada.
+;; 2 exemplo diferente:
+(println "nth: entrada: [1 2 3 4 5] 2 resultado: " (nth [1 2 3 4 5] 2))
+(println "nth: entrada: [1 2 3 4 5] 3 resultado: " (nth [1 2 3 4 5] 3))
+
+;; o que é conj
+;; conj adiciona um elemento a uma coleção.
+;; 2 exemplo diferente:
+(println "conj: entrada: [1 2 3 4 5] 6 resultado: " (conj [1 2 3 4 5] 6))
+(println "conj: entrada: [1 2 3 4 5] 7 resultado: " (conj [1 2 3 4 5] 7))
+
 ;; o que é sort
 ;; sort ordena uma coleção.
 ;; 2 exemplo diferente:
