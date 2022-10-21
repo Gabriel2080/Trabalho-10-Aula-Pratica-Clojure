@@ -88,7 +88,6 @@
               (recur (+ i 2)))
             true))))))
 
-(ehPrimo 293)
 (println "ehPrimo: entrada: 293; resultado:" (ehPrimo 293))
 
 ;; 3. Utilizando  a  linguagem  Clojure,  crie  uma  função  chamada  fatoresPrimos  que  receba  um inteiro e devolva uma lista dos seus fatores primos. Decomposição em fatores primos é uma tarefa fundamental da aritmética
@@ -103,7 +102,6 @@
         (recur (/ n i) i (conj fatores i))
         (recur n (+ i 1) fatores)))))
 
-(fatoresPrimos 65)
 (println "fatoresPrimos: entrada: 65; resultado:" (fatoresPrimos 65))
 
 ;; 4. Utilizando  a  linguagem  Clojure,  crie  uma  função  chamada  todosPrimos  que  receba  dois valores inteiros e devolve todos os números primos que existam entre estes dois valores.  
@@ -118,5 +116,4 @@
         (recur (+ a 1) b primos))
       primos)))
 
-(todosPrimos 1 100)
 (println "todosPrimos: entrada: 1 100; resultado:" (todosPrimos 1 100))
