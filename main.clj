@@ -45,8 +45,8 @@
 ;; o que é inc
 ;; inc incrementa um número.
 ;; 2 exemplo diferente:
-(println "inc: entrada: 3 1 resultado: " (inc 3 1))
-(println "inc: entrada: 7 1 resultado: " (inc 7 1))
+(println "inc: entrada: 3 resultado: " (inc 3))
+(println "inc: entrada: 7 resultado: " (inc 7))
 
 ;; o que é nth
 ;; nth retorna o elemento de uma coleção na posição especificada.
